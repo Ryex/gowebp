@@ -1,5 +1,7 @@
 package webpoptions
 
+import "image"
+
 const (
 	EncodingPresetDefault EncodingPreset = iota
 	EncodingPresetPicture
@@ -20,5 +22,16 @@ type (
 
 		// Use sharp (and slow) RGB->YUV conversion.
 		UseSharpYuv bool
+	}
+
+	DecodingOptions struct {
+		BypassFiltering        bool
+		NoFancyUpsampling      bool
+		Crop                   image.Rectangle
+		Scale                  image.Rectangle
+		UseThreads             bool
+		Flip                   bool
+		DitheringStrength      int
+		AlphaDitheringStrength int
 	}
 )
