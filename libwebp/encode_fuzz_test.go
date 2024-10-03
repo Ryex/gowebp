@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bep/gowebp/libwebp/webpoptions"
+	"github.com/ryex/gowebp/libwebp/webpoptions"
 )
 
 func FuzzEncodePNG(f *testing.F) {

@@ -91,7 +91,7 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/bep/gowebp/libwebp/webpoptions"
+	"github.com/ryex/gowebp/libwebp/webpoptions"
 )
 
 type (

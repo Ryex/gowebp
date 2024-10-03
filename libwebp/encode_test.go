@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bep/gowebp/internal/libwebp"
+	"github.com/ryex/gowebp/internal/libwebp"
 
-	"github.com/bep/gowebp/libwebp/webpoptions"
+	"github.com/ryex/gowebp/libwebp/webpoptions"
 	"golang.org/x/image/webp"
 )
 

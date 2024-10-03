@@ -1,4 +1,4 @@
-module github.com/bep/gowebp
+module github.com/ryex/gowebp
 
 go 1.20
 
